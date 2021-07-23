@@ -1,0 +1,609 @@
+* {
+  direction: rtl;
+  font-family: "Shabnam FD", sans-serif;
+}
+
+/* @font-face {} */
+
+@import url("https://v1.fontapi.ir/css/ShabnamFD");
+body {
+  background-image: url("../image/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body h1 {
+  font-family: "Shabnam FD", sans-serif;
+}
+
+body h2 {
+  font-family: "Shabnam FD", sans-serif;
+}
+
+body h3 {
+  font-family: "Shabnam FD", sans-serif;
+}
+
+body h4 {
+  font-family: "Shabnam FD", sans-serif;
+}
+
+body h5 {
+  font-family: "Shabnam FD", sans-serif;
+}
+
+body h6 {
+  font-family: "Shabnam FD", sans-serif;
+}
+
+.btn-dark a {
+  color: white;
+}
+
+.btn-dark a:hover {
+  color: white;
+}
+
+p.title {
+  font-size: 20px;
+}
+
+canvas {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 500px;
+  background: url("../image/cover.png") no-repeat center;
+  background-size: 50%;
+  overflow: hidden;
+}
+
+/* .scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    transform: scale(1)
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid rgb(0, 0, 0);
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    60% {
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+} */
+
+/* #big {
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 18px -2px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 0px 0px 18px -2px rgba(0, 0, 0, 0.52);
+    box-shadow: 0px 0px 18px -2px rgba(0, 0, 0, 0.52);
+} */
+
+.col-xl-12 h1 {
+  text-align: center;
+}
+
+.col-xl-12 {
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  padding: 50px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 0px 71px -28px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 71px -28px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 0px 71px -28px rgba(0, 0, 0, 0.22);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.col-xl-12 img {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+tbody td {
+  max-width: 100px;
+}
+
+tbody tr th {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Center hr {
+  max-width: 80%;
+  /* margin: auto; */
+}
+
+.uk-card {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.uk-card-body p {
+  margin: 0px 20px 0px 20px;
+}
+
+p.ansewer,
+ul li {
+  font-weight: bold;
+}
+
+p.textcenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-md-10 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.col-md-10 input {
+  width: 50%;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.custom-file {
+  text-align: center;
+  max-width: 50%;
+}
+
+.TH {
+  text-align: center;
+}
+
+/* /////////footer///// */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.footer-section {
+  background: #151414;
+}
+
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cta-text span {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+footer .col-xl-12 {
+  background-color: #151414;
+}
+
+.footer-widget {
+  justify-items: center;
+  text-align: center;
+}
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.footer-social-icon span {
+  color: #ffffff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Shabnam FD", sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+  /* color: #fff; */
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.facebook-bg {
+  background: #3b5998;
+}
+
+.twitter-bg {
+  background: #55acee;
+}
+
+.google-bg {
+  background: #dd4b39;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  /* float: left; */
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.copyright-text p a {
+  color: #ff5e14;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+#Receipt {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+#pay {
+  visibility: hidden;
+  position: absolute;
+}
+
+.pay-btn:hover #pay {
+  visibility: visible;
+  position: relative;
+}
+
+.pay-btn {
+  background: #00c51bc7;
+  color: #ffffff;
+  padding: 0.8rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: auto;
+  position: absolute;
+  min-width: 20px;
+}
+
+.pay-btn:hover {
+  background: #00c51bc7;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #00000061;
+  padding: 0.9rem;
+  color: #ffffff;
+}
+
+/* ///////////////////////////////////// */
+
+/* ///////////////////////////////////// */
+
+#delete {
+  visibility: hidden;
+  position: absolute;
+}
+
+.delete-btn:hover #delete {
+  visibility: visible;
+  position: relative;
+}
+
+.delete-btn {
+  background: #ec0000;
+  color: #ffffff;
+  padding: 0.8rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: auto;
+  position: absolute;
+  min-width: 20px;
+}
+
+.delete-btn:hover {
+  background: #ec0000;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #00000061;
+  padding: 0.9rem;
+  color: #ffffff;
+}
+
+/* ///////////////////////////////////// */
+
+/* ///////////////////////////////////// */
+
+#order {
+  visibility: hidden;
+  position: absolute;
+}
+
+.order-btn:hover #order {
+  visibility: visible;
+  position: relative;
+}
+
+.order-btn {
+  background: #00c51bc7;
+  color: #ffffff;
+  padding: 0.8rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  /* width: auto; */
+  position: absolute;
+  min-width: 20px;
+}
+
+.order-btn:hover {
+  background: #00c51bc7;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #00000061;
+  padding: 0.9rem;
+  color: #ffffff;
+}
+
+/* ///////////////////////////////////// */
+
+/* ///////////////////////////////////// */
+
+#okEdite {
+  visibility: hidden;
+  position: absolute;
+}
+
+.okEdite-btn:hover #okEdite {
+  visibility: visible;
+  position: relative;
+}
+
+.okEdite-btn {
+  background: #00c51bc7;
+  color: #ffffff;
+  padding: 0.8rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  /* width: auto; */
+  position: absolute;
+  min-width: 20px;
+}
+
+.okEdite-btn:hover {
+  background: #1102ecea;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #00000061;
+  padding: 0.9rem;
+  color: #ffffff;
+}
+
+/* ///////////////////////////////////// */
+
+/* ///////////////////////////////////// */
+
+#edit {
+  visibility: hidden;
+  position: absolute;
+}
+
+.edit-btn:hover #edit {
+  visibility: visible;
+  position: relative;
+}
+
+.edit-btn {
+  background: #1102ecea;
+  color: #ffffff;
+  padding: 0.8rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: auto;
+  position: absolute;
+  min-width: 20px;
+}
+
+.edit-btn:hover {
+  background: #1102ecea;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #00000061;
+  padding: 0.9rem;
+  color: #ffffff;
+}
+
+@media print {
+  #noPrint {
+    display: none;
+  }
+}
+
+/* ///////////////////////////////////// */
+
+/* ////////////////Off-canvas///////////////////// */
+#help {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border-bottom: 1px solid red;
+}
+#helpText p {
+  color: #151414;
+  text-align: center;
+  border-bottom: 1px solid red;
+  /* padding: 15px 80px 0px 0px; */
+}
+.helpText {
+  color: #151414;
+  text-align: center;
+}
+
+/* ////////////////Off-canvas///////////////////// */

@@ -1,0 +1,257 @@
+<h1>ثبت سفارش</h1>
+<br />
+<br />
+<br />
+<br />
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">نام و نام خانوادگی</label>
+      <input type="text" name="name" class="form-control" id="validationCustom01" placeholder="" required />
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback">پر کردن این فیلد لازم است</div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">نام شرکت</label>
+      <input type="text" name="name" class="form-control" id="validationCustom02" placeholder="" />
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback"></div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">نام دامنه</label>
+      <input type="url" pattern="https://.*" name="url" class="form-control" id="validationCustom03" placeholder="www.example.com or .ir" required />
+      <div class="valid-feedback">مورد تایید است</div>
+      <div class="invalid-feedback">نام دامنه را به درستی وارد کنید</div>
+    </div>
+    <div class="form-row">
+      <label for="colFormLabel" class="col-form-label">ایمیل</label>
+      <div class="col-md-4 mb-3">
+        <input type="email" class="form-control" id="colFormLabel" placeholder="example@gmail.com" required />
+        <div class="invalid-feedback">نام ایمیل را به درستی وارد کنید</div>
+        <br />
+      </div>
+      <label for="validationCustom04" class="col-sm-2 col-form-label">شماره تماس</label>
+      <div class="col-md-4 mb-3">
+        <input type="tel" class="form-control" id="validationCustom04" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" maxlength="11" required />
+        <div class="invalid-feedback">شماره موبایل را به درستی وارد کنید</div>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <p>حجم فایل انتخاب شده باید حداکثر 100 کیلوبایت باشد</p>
+      <label for="validationCustom05">یک فایل انتخاب کنید</label><br />
+      <input type="file" id="validationCustom05" name="avatar" accept="image/png, image/jpeg" required />
+    </div>
+  </div>
+  <p class="title">می توانید خدمات مورد نیاز خود را انتخاب کنید(توجه کنید که قیمت ها به تومان است)</p>
+  <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+    <ul>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>قابلیت جستجو</td>
+            &nbsp;&nbsp;
+            <td>رایگان</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>قابلیت جستجوی پیشرفته</td>
+            &nbsp;&nbsp;
+            <td>300/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>فیلترینگ ساده</td>
+            &nbsp;&nbsp;
+            <td>100/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>فیلترینگ پیشرفته</td>
+            &nbsp;&nbsp;
+            <td>300/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>ریسپانسیوسازی کامل</td>
+            &nbsp;&nbsp;
+            <td>400/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>قرار دادن API بسته به میزان پیشرفته بودن آن</td>
+            &nbsp;&nbsp;
+            <td>200/000 – 600/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>ثبت نام کاربران در سایت</td>
+            &nbsp;&nbsp;
+            <td>100/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>قابلیت social login با گوگل</td>
+            &nbsp;&nbsp;
+            <td>250/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>ثبت درگاه بانکی در سایت</td>
+            &nbsp;&nbsp;
+            <td>200/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>امکان اضافه کردن مطالب توسط کاربران در سایت</td>
+            &nbsp;&nbsp;
+            <td>400/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>قرار دادن بخش نظرات در سایت</td>
+            &nbsp;&nbsp;
+            <td>رایگان</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>بخش نظرات پیشرفته در سایت شامل به اشتراک گذاری مطالب</td>
+            &nbsp;&nbsp;
+            <td>400/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>ایمن سازی پیشرفته</td>
+            &nbsp;&nbsp;
+            <td>100/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>اضافه نمودن زبان انگلیسی در سایت</td>
+            &nbsp;&nbsp;
+            <td>400/000</td>
+          </tr></label
+        >
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>قابلیت کش کردن مطالب در سایت(جهت سرعت بسیار بالاتر بارگذاری صفحات و سئوی بالاتر)</td>
+            &nbsp;&nbsp;
+            <td>300/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>امکان ایجاد RSS feed به ازای هر صفحه</td>
+            &nbsp;&nbsp;
+            <td>100/000</td>
+          </tr>
+        </label>
+      </li>
+      <li>
+        <label
+          ><input class="uk-checkbox" type="checkbox" />
+          <tr>
+            <td>کار بر روی سئو</td>
+            &nbsp;&nbsp;
+            <td>250/000</td>
+          </tr></label
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="send" id="invalidCheck" required />&nbsp;&nbsp;&nbsp;
+      <label class="form-check-label" for="invalidCheck"
+        ><p><a href="#modal-center" uk-toggle>قوانین</a> را مطالعه کردم و با آنها موافق هستم</p></label
+      >
+      <div class="invalid-feedback">تمام قسمت ها باید به درستی پر شوند</div>
+    </div>
+  </div>
+  <button class="order-btn" type="submit">
+    <svg id="order" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+      <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+      <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" /></svg
+    >&nbsp;&nbsp;ثبت سفارش
+  </button>
+</form>
+<br /><br /><br />
+<div class="form-group row">
+  <div class="col-sm-10">
+    <button class="okEdite-btn" type="submit">
+      <svg id="okEdite" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pin-angle" viewBox="0 0 16 16">
+        <path d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a5.927 5.927 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707-.195-.195.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a5.92 5.92 0 0 1 1.013.16l3.134-3.133a2.772 2.772 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146zm.122 2.112v-.002zm0-.002v.002a.5.5 0 0 1-.122.51L6.293 6.878a.5.5 0 0 1-.511.12H5.78l-.014-.004a4.507 4.507 0 0 0-.288-.076 4.922 4.922 0 0 0-.765-.116c-.422-.028-.836.008-1.175.15l5.51 5.509c.141-.34.177-.753.149-1.175a4.924 4.924 0 0 0-.192-1.054l-.004-.013v-.001a.5.5 0 0 1 .12-.512l3.536-3.535a.5.5 0 0 1 .532-.115l.096.022c.087.017.208.034.344.034.114 0 .23-.011.343-.04L9.927 2.028c-.029.113-.04.23-.04.343a1.779 1.779 0 0 0 .062.46z" /></svg
+      >&nbsp;&nbsp;ثبت تغییرات
+    </button>
+  </div>
+</div>
+<br /><br />
+<div class="form-group row">
+  <div class="col-sm-10">
+    <button class="order-btn" type="button">بازگشت به صفحه اصلی</button>
+  </div>
+</div>
+<br /><br />
+<div class="form-group row">
+  <div class="col-sm-10">
+    <button class="order-btn" type="button">بازگشت به فاکتور</button>
+  </div>
+</div>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://v1.fontapi.ir/css/ShabnamFD" rel="stylesheet">
+    <link rel="stylesheet" href="date.css/style.css">
+    <link rel="stylesheet" href="date.css/uikit-rtl.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
+                <!--frist page link-->
+            </div>
+        </div>
+    </nav>
+    <header><canvas></canvas>
+        <section>
+            <a href="#" class="scroll-down" address="true"></a>
+        </section>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <table class="uk-table uk-table-small uk-table-divider">
+                    <thead>
+                        <tr>
+                            <th>اطلاعات کامل</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>نام</td>
+                            <td>
+                                <!--
+                                Customer name-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>نام شرکت</td>
+                            <td>
+                                <!--
+                                company name-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ایمیل</td>
+                            <td>
+                                <!--
+                                customer email-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>نام دامنه</td>
+                            <td>
+                                <!--
+                                site addres-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>لوگو انتخاب شده</td>
+                            <td>
+                                <img src="" id="Receipt" alt="">
+                                <!-- customer logo link-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="uk-placeholder uk-text-center">لیست خدمات انتخاب شده</div>
+                <table class="uk-table uk-table-small uk-table-divider uk-text-center">
+                    <tbody>
+                        <!--Start loop-->
+                        <tr>
+                            <td>
+                                <!--Name of selected service -->
+                            </td>
+                            <td>
+                                <!--price of selected service -->
+                            </td>
+                        </tr>
+                        <!--End loop-->
+                    </tbody>
+                </table>
+                <hr class="uk-divider-icon">
+                <table class="uk-table uk-table-small uk-table-divider">
+                    <tbody>
+                        <tr>
+                            <td>قیمت کل محصول</td>
+                            <td>
+                                <!--
+                                Total price-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <legend class="col-form-label">انتخاب نحوه ی پرداخت:</legend>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" uk-tooltip="title: پرداخت در ابتدای سفارش پروژه; pos: top-left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label" for="gridRadios1"> پرداخت در یک مرحله &nbsp; 7% تخفیف
+                            </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" uk-tooltip="title: نوبت اول: زمان سفارش پروژه، نوبت دوم: زمان تحویل پروژه; pos: top-left">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="form-check-label" for="gridRadios2"> پرداخت در دو مرحله &nbsp; 3% تخفیف
+                            </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button class="pay-btn" type="submit"><svg id="pay" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                            </svg>&nbsp;&nbsp;پرداخت</button>
+                        </div>
+                    </div><br><br>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button class="edit-btn"><svg id="edit" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-diff" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4zm-2.5 6.5A.5.5 0 0 1 6 10h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                            </svg>&nbsp;&nbsp;تغییر سفارش</button>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button class="delete-btn"><svg id="delete" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-x" viewBox="0 0 16 16">
+                                <path d="M7.354 5.646a.5.5 0 1 0-.708.708L7.793 7.5 6.646 8.646a.5.5 0 1 0 .708.708L8.5 8.207l1.146 1.147a.5.5 0 0 0 .708-.708L9.207 7.5l1.147-1.146a.5.5 0 0 0-.708-.708L8.5 6.793 7.354 5.646z"/>
+                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>&nbsp;&nbsp;حذف سفارش</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="image/logopng.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <em>بیگ تک</em>
+                            <p>زیر مجموعه ی شرکت رایانه پندار آپادانا می باشد که در زمینه ی طراحی سایت و امور برنامه نویسی تحت وب فعالیت دارد</p>
+                        </div>
+                        <div class="footer-cta pt-5 pb-5">
+                            <div class="row">
+                                <div class="col-xl-4 col-md-12">
+                                    <div class="single-cta">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <div class="cta-text">
+                                            <a href="" class="uk-icon-button" uk-icon="location"></a>&nbsp;
+                                            <span>خوزستان، اهواز</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-12">
+                                    <div class="single-cta">
+                                        <i class="fas fa-phone"></i>
+                                        <div class="cta-text">
+                                            <a href="" class="uk-icon-button" uk-icon="receiver"></a>&nbsp;
+                                            <span>09376736885</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-12">
+                                    <div class="single-cta">
+                                        <i class="far fa-envelope-open"></i>
+                                        <div class="cta-text">
+                                            <a href="" class="uk-icon-button" uk-icon="mail"></a>&nbsp;
+                                            <span>bigtech.webcompany@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-social-icon">
+                            <a href="https://www.linkedin.com/in/big-tech-8115a01b9/" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin" id="linkedin"></a>
+                            <!-- Set link-->
+                            <a href="https://www.instagram.com/bigtech.co/" class="uk-icon-button  uk-margin-small-right" uk-icon="instagram" id="instagram"></a>
+                            <!-- Set link-->
+                            <a href="https://wa.me/989376736885" class="uk-icon-button" uk-icon="whatsapp" id="whatsapp"></a>
+                            <!-- Set link-->
+                        </div>
+                        <hr>
+                        <div>
+                            <em><p> تمامی حقوق این وب سایت نزد شرکت <em> رایانه پندار آپادانا </em> محفوظ است.</p>
+                            </em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="date.js/script.js"></script>
+    <script src="date.js/uikit.min.js"></script>
+    <script src="date.js/uikit-icons.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
