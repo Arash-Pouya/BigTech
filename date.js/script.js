@@ -217,3 +217,13 @@ $(function () {
     $("#mylist").load("index4.html");
   });
 });
+
+function myFunction() {
+  var x = document.getElementById("login");
+  x.style.display = "block";
+  // if (x.style.display === "none") {
+  //   x.style.display = "block";
+  // } else {
+  //   x.style.display = "none";
+  // }
+}
